@@ -1,11 +1,12 @@
 import React from 'react'
+import nav_logo from '../assets/nav_logo.png'
 
 const Header = () => {
   return (
     <div>
      <header className="flex shadow-md py-4 px-4 sm:px-10 bg-white min-h-[70px] tracking-wide relative z-50">
       <div className="flex flex-wrap items-center justify-between gap-5 w-full">
-        <a href="javascript:void(0)" className="max-sm:hidden"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" className="w-36" /></a>
+        <a href="javascript:void(0)" className="max-sm:hidden"><img src={nav_logo} alt="logo" className="w-36" /></a>
         <a href="javascript:void(0)" className="hidden max-sm:block"><img src="https://readymadeui.com/readymadeui-short.svg" alt="logo" className="w-9" /></a>
 
         <div id="collapseMenu"
